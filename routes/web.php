@@ -39,6 +39,9 @@ Route::middleware(['auth','role:admin'])->group(function(){
     Route::post('/admin/profile/store', [AdminController::class, 'AdminProfileStore'])->name('admin.profile.store');
     Route::get('/admin/change/password', [AdminController::class, 'AdminChangePassword'])->name('admin.change.password');
     Route::post('/admin/update/password', [AdminController::class, 'AdminUpdatePassword'])->name('admin.update.password');
+    Route::post('/admin/internal/cost', [AdminController::class, 'AdminInternalCost'])->name('admin.internal.cost');
+
+
 });//end Group Admin Middleware
 
 
@@ -50,3 +53,4 @@ Route::middleware(['auth','role:agent' ])->group(function(){
 
 
 Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
+

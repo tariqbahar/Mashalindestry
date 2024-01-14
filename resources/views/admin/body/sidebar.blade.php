@@ -18,66 +18,57 @@
             <span class="link-title">Dashboard</span>
           </a>
         </li>
-        <li class="nav-item nav-category">web apps</li>
+        <li class="nav-item nav-category">Factory</li>
         <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false" aria-controls="emails">
+          <a class="nav-link" data-bs-toggle="collapse" href="#" >
             <i class="link-icon" data-feather="mail"></i>
-            <span class="link-title">Email</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
+            <span class="link-title">Internal Cost</span>
+            <i class="link-arrow"></i>
           </a>
           <div class="collapse" id="emails">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="pages/email/inbox.html" class="nav-link">Inbox</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/email/read.html" class="nav-link">Read</a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/email/compose.html" class="nav-link">Compose</a>
-              </li>
-            </ul>
+            
           </div>
         </li>
      
         <li class="nav-item">
           <a href="pages/apps/calendar.html" class="nav-link">
             <i class="link-icon" data-feather="calendar"></i>
-            <span class="link-title">Calendar</span>
+            <span class="link-title">Sales</span>
           </a>
         </li>
-        <li class="nav-item nav-category">Components</li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
             <i class="link-icon" data-feather="feather"></i>
-            <span class="link-title">UI Kit</span>
+            <span class="link-title">Work</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
           <div class="collapse" id="uiComponents">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/ui-components/accordion.html" class="nav-link">Accordion</a>
+                <a href="pages/ui-components/accordion.html" class="nav-link">Daily Work</a>
               </li>
               <li class="nav-item">
-                <a href="pages/ui-components/alerts.html" class="nav-link">Alerts</a>
+                <a href="pages/ui-components/alerts.html" class="nav-link">Weakly Work</a>
               </li>
-             
+              <li class="nav-item">
+                <a href="pages/ui-components/alerts.html" class="nav-link">Monthly Work</a>
+              </li>
             </ul>
           </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false" aria-controls="advancedUI">
             <i class="link-icon" data-feather="anchor"></i>
-            <span class="link-title">Advanced UI</span>
+            <span class="link-title">Warehouse</span>
             <i class="link-arrow" data-feather="chevron-down"></i>
           </a>
           <div class="collapse" id="advancedUI">
             <ul class="nav sub-menu">
               <li class="nav-item">
-                <a href="pages/advanced-ui/cropper.html" class="nav-link">Cropper</a>
+                <a href="pages/advanced-ui/cropper.html" class="nav-link">Materials</a>
               </li>
               <li class="nav-item">
-                <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Owl carousel</a>
+                <a href="pages/advanced-ui/owl-carousel.html" class="nav-link">Products</a>
               </li>
              
             </ul>
@@ -88,11 +79,11 @@
       
        
         
-        <li class="nav-item nav-category">Docs</li>
+        
         <li class="nav-item">
           <a href="#" target="_blank" class="nav-link">
             <i class="link-icon" data-feather="hash"></i>
-            <span class="link-title">Documentation</span>
+            <span class="link-title">Loans</span>
           </a>
         </li>
       </ul>

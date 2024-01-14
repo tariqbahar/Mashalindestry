@@ -89,6 +89,12 @@ class AdminController extends Controller
         return back()->with($notification);
 
 
+    }//end function
+
+    public function AdminInternalCost(){
+
+        return view('internalcost');
+
     }
 
 
